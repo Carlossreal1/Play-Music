@@ -11,16 +11,19 @@
     <div class="music-container">
       <h4 id="playlist-title">Michael Jackson</h4>
     <img id='cover' src="michael_jackson.jpeg"></img>
+    <audio id="audio" src="/Thriller/01. Wanna Be Startin' Somethin'.mp3"></audio>
     <div id="below-cover">
 
      <div id="song-info">
-      <div>Nome da musica</div>
-      <div>Nome da banda</div>
+      <div id="song-name">Nome da musica</div>
+      <div id="band-name" class="light-color">Nome da banda</div>
      </div>
-    <div id="like" class="button"><i class="bi bi-heart"></i></div>  
+    <div id="like" class="button light-color" ><i class="bi bi-heart"></i></div>  
     
     </div>
-    <div>Barra de Progresso</div>
+    <div id="progress-bar">
+      <div id="current-progress"></div>
+    </div>
     <div id="button-container">
       <div id="shuffle" class="button"><i class="bi bi-shuffle"></i></div>
     <div id="previous" class="button button-navigate"><i class="bi bi-skip-start-fill"></i></div>
@@ -29,5 +32,6 @@
     <div id="repeat" class="button"><i class="bi bi-repeat"></i></div>
     </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
